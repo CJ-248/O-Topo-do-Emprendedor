@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O guia completo para transformar ideias em negócios de sucesso.">
+    <title>O Topo do Empreendedor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px 10%;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .cta a:hover {
+            background-color: #45a049;
+        }
+        .features, .testimonials {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .feature, .testimonial {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O Topo do Empreendedor</h1>
+        <p>Transforme suas ideias em negócios de sucesso com este guia prático e completo!</p>
+    </header>
+    <section>
+        <h2>O que você vai aprender?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>1. Mentalidade Empreendedora</h3>
+                <p>Descubra como adotar o mindset certo para enfrentar desafios e crescer continuamente.</p>
+            </div>
+            <div class="feature">
+                <h3>2. Identificação de Oportunidades</h3>
+                <p>Aprenda a enxergar e aproveitar as melhores oportunidades no mercado.</p>
+            </div>
+            <div class="feature">
+                <h3>3. Planejamento Estratégico</h3>
+                <p>Crie metas claras, organize suas finanças e estruture seu negócio para o sucesso.</p>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h2>Garanta já seu acesso!</h2>
+        <p><strong>De R$ 99,90</strong> por apenas <strong>R$ 36,99</strong>!</p>
+        <a href="#">Compre Agora</a>
+    </section>
+    <section>
+        <h2>O que dizem nossos leitores?</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Este ebook mudou minha visão sobre negócios. Já estou aplicando as lições e vendo resultados!"</p>
+                <strong>- João S.</strong>
+            </div>
+            <div class="testimonial">
+                <p>"A linguagem é prática e direta. A planilha foi essencial para organizar meu planejamento financeiro."</p>
+                <strong>- Ana P.</strong>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 O Topo do Empreendedor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
